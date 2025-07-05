@@ -1,6 +1,6 @@
 <br />
 
-**Linux Dual Boot Setting Script** #######################################
+**Linux Dual Boot Setting Script** ############################################
 
 <br />
 <p />
@@ -29,7 +29,7 @@ Then the next option copies the backup files into that Linux you are using **rsy
 <p />
 <br />
 
-**Set up Bluetooth Devices in Linux** ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+**Set up Bluetooth Devices in Linux** :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 <p >
 Before you run that script, it’s important that you have set up all of your devices on one Linux system. If you have messed up your Linux partitions, use the Reset option of that script.
@@ -59,7 +59,7 @@ Now you can leave bluetoothctl with **exit**
 <p />
 <br />
 
-**Note** :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+**Note** :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 <p >
 It's very easy to connect all of your devices with Linux with a dual boot system as far your Bluetooth Settings got on each Partition the same Settings
