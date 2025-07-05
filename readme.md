@@ -1,6 +1,6 @@
 <br />
 
-**Linux Dual Boot Setting Script** #########################################################
+**Linux Dual Boot Setting Script** #######################################
 
 <br />
 <p />
@@ -8,7 +8,7 @@ That Linux Dual Boot Setting Script creates a backup of your Bluetooth settings 
 <p />
 
 
-**instruction manual** ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+**instruction manual** ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 <p>
 Click on the DualbootBluetooth.py file of that GitHub page and click again on that Download raw file button
 
