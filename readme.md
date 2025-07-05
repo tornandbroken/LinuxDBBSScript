@@ -1,6 +1,7 @@
 <br />
 
 **Linux Dual Boot Setting Script** #########################################################
+
 <br />
 <p />
 That Linux Dual Boot Setting Script creates a backup of your Bluetooth settings on your Linux system, with which your devices will be able to connect to any other Linux partition of your notebook or PC with ease
