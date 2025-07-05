@@ -7,7 +7,7 @@
 That Linux Dual Boot Setting Script creates a backup of your Bluetooth settings on your Linux system, with which your devices will be able to connect to any other Linux partition of your notebook or PC with ease
 <p />
 
-**instruction manual** :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+**instruction manual** :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 <p>
 Click on the DualbootBluetooth.py file of that GitHub page and click again on that Download raw file button
 
