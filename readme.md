@@ -70,6 +70,7 @@ The first MAC address in that directory shows your Bluetooth device that's in yo
 It should be clear that you can have multiple hardware MACs and, of course, multiple device MACs in your system
 <p />
 <br />
+  
 **Cheers**
 
 
