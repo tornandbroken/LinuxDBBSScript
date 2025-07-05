@@ -7,7 +7,7 @@
 That Linux Dual Boot Setting Script creates a backup of your Bluetooth settings on your Linux system, with which your devices will be able to connect to any other Linux partition of your notebook or PC with ease
 <p />
 
-**instruction manual** :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+**instruction manual** ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 <p>
 Click on the DualbootBluetooth.py file of that GitHub page and click again on that Download raw file button
 
@@ -28,7 +28,7 @@ Then the next option copies the backup files into that Linux you are using **rsy
 <p />
 <br />
 
-**Set up Bluetooth Devices in Linux** :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+**Set up Bluetooth Devices in Linux** :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 <p >
 Before you run that script, it’s important that you have set up all of your devices on one Linux system. If you have messed up your Linux partitions, use the Reset option of that script.
@@ -58,7 +58,7 @@ Now you can leave bluetoothctl with **exit**
 <p />
 <br />
 
-**Note** ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+**Note** ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 <p >
 It's very easy to connect all of your devices with Linux with a dual boot system as far your Bluetooth Settings got on each Partition the same Settings
