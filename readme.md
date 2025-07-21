@@ -16,7 +16,7 @@ To run it, you have either to type into your Bash python BluetoothSettings.py or
 
 - Firstly, set up all your Bluetooth devices. If you don’t know how you can do that a few lines later, there will be a short explanation
 - Secondly Run that BluetoothSettings.py script in your Linux terminal and create a backup of your Linux Bluetooth device settings with it 
-- Thirdly Run that BluetoothSettings.py script on every partition you have Linux installed with a copy of that backup folder “bluetooth” next to that BluetoothSettings.py script
+- Thirdly Run that BluetoothSettings.py script on every partition you have Linux installed with a copy of that backup folder “bluetooth” next to that BluetoothSettings.py script and intall your bluetooth "settings" backup
 - After rebooting your Linux systems, your Bluetooth devices will either be automatically connected, or you will have to press the connect button of your device 
 
 <p >
