@@ -4,8 +4,8 @@ import os
 import sys
 import subprocess
 
-if not os.geteuid() == 0:
-    sys.exit(" : : : Only root can run this script  : : : : : : : : : : : : : : : : : : : : : :")
+import getpass
+password = getpass.getpass("Enter root password: ")
 
 
 def menue():
