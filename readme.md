@@ -9,7 +9,7 @@ That Linux Dual Boot Setting Script creates a backup of your Bluetooth settings 
 
 **instruction manual ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: :::::: ::::: :::: ::: :: :**
 <p>
-Click on the DualbootBluetooth.py file of that GitHub page and click again on that Download raw file button
+Click on the DualbootBluetooth.py file of that GitHub page and click again on that Download raw file button 󰄠 
 
 To run it, you have either to type into your Bash python BluetoothSettings.py or python3 BluetoothSettings.py. 
 <p />
@@ -65,9 +65,8 @@ It's very easy to connect all of your devices with Linux with a dual boot system
 
 The syntax of that setting is made in the /var/lib/bluetooth/HarwareMAC/DevicesMAC directory
 
-The first MAC address in that directory shows your Bluetooth device that's in your PC hardware implemented, and the MAC address in that folder shows the devices that have been paired with your Linux system
+The first MAC address in that directory shows the Bluetooth hardware interfaces that are implemented in your PC hardware "one interface will be able to handle up to 8 Bluetooth devices", and the second MAC address or addresses in that folder shows the devices that have already been paired with your Linux system
 
-It should be clear that you can have multiple hardware MACs and, of course, multiple device MACs in your system
 <p />
 <br />
   
