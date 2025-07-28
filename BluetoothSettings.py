@@ -2,9 +2,8 @@
 
 import os
 import sys
-import subprocess
-
 import getpass
+
 password = getpass.getpass("Enter root password: ")
 
 
