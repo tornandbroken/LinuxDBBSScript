@@ -10,9 +10,9 @@ That Linux Dual Boot Setting Script creates a backup of your Bluetooth settings 
 **instruction manual ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: :::::: ::::: :::: ::: :: :**
 <p>
 Click on the DualbootBluetooth.py file of that GitHub page and click again on that "󰄠 " button</br>
-It's also possible to download Git archives in the traditional way with the git clone command in your terminal, so you have to open your terminal and enter <code>git clone https://github.com/tornandbroken/LinuxDBBSScript.git</code>
+It's also possible to download that archive in the traditional way, so you have to open your terminal and enter <code>git clone https://github.com/tornandbroken/LinuxDBBSScript.git</code>
 
-To run it, you have either to type into your Bash python BluetoothSettings.py or python3 BluetoothSettings.py. 
+To run it, you have either to type into your Bash "sudo" python BluetoothSettings.py or "sudo" python3 BluetoothSettings.py. 
 <p />
 
 - Firstly, set up all your Bluetooth devices. If you don’t know how you can do that a few lines later, there will be a short explanation
