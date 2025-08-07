@@ -1,10 +1,10 @@
- #! /usr/bin/env python
+#! /usr/bin/env python
 
 import os
 import sys
-import getpass
 
-password = getpass.getpass("Enter root password: ")
+if not os.geteuid() == 0:
+    sys.exit(" : : : Only root can run this script  : : : : : : : : : : : : : : : : : : : : : :")
 
 
 def menue():
