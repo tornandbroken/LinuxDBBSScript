@@ -4,31 +4,31 @@ import os
 import sys
 
 if not os.geteuid() == 0:
-    sys.exit(" : : : Only root can run this script  : : : : : : : : : : : : : : : : : : : : : :")
+    sys.exit(" : : : Only root can run this script  : : : : : : : : : : : : : : : : : : : :")
 
 
 def menue():
-    print("")
-    print("")
+    print()
+    print()
     print("   1 󰉙  Create a backup of your Bluetooth settings")
-    print("")
-    print(" - - -  Before running this script set up all your Bluetooth devices - - - - - - - ")
-    print("")
-    print("")
+    print()
+    print(" - - -  Before running this script set up all your Bluetooth devices - - - - -")
+    print()
+    print()
     print("   2 󰉍  Installing the backup   󱈸 System will reboot immediately 󱈸 ")
-    print("")
-    print(" - - -  Make sure that your Bluetooth backup files are next to this program  - - -")
-    print("")
-    print("")
+    print()
+    print(" - - -  Make sure that your Bluetooth backup files are next to this program  -")
+    print()
+    print()
     print("   3 󰉘  Reset your Bluetooth settings   󱈸 Each device will be removed 󱈸")
-    print("")
-    print(" - - -  Use that only if you have messed up your Bluetooth settings  - - - - - - -")
-    print("")
-    print("")
+    print()
+    print(" - - -  Use that only if you have messed up your Bluetooth settings  - - - - -")
+    print()
+    print()
     print("   4 󰉒  Exit")
-    print("")
-    print(" - - -  Leave this script  - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
-    print("")
+    print()
+    print(" - - -  Leave this script  - - - - - - - - - - - - - - - - - - - - - - - - - -")
+    print()
 
     auswahl = input("  ")
 
@@ -37,16 +37,19 @@ def menue():
     if auswahl == "1":
         os.system('cp -p -r /var/lib/bluetooth bluetooth && chmod -R 555 bluetooth');
         print(" + + +  Backup 󰉗 bluetooth created in", os.getcwd(), " + + + + + + +")
+        print()
     elif auswahl == "2":
-        os.system('rsync -au bluetooth /var/lib && reboot')
+        os.system('rsync -au bluetooth /var/lib && reboot');
     elif auswahl == "3":
         os.system('rm -rf /var/lib/bluetooth');
-        print(" x x x  Bluetooth removed  󰉘   x x x x x x x x x x x x x x x x x x x x x x x x x x")
+        print(" x x x  Bluetooth removed  󰉘   x x x x x x x x x x x x x x x x x x x x x x x x")
+        print()
     elif auswahl == "4":
-        os.system("exit");
-        print(" : : :  Goodbye  : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : :")
+        print(" : : :  Goodbye  : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : :")
+        print()
+        exit();
     else:
-        print(" # # #  Invalid  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #")
+        print(" # # #  Invalid  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #")
 
 menue()
 
