@@ -1,8 +1,11 @@
 #! /usr/bin/env python
 
-import os, sys, getpass
+import os, sys, subprocess
 
-password = getpass.getpass()
+if not os.geteuid() == 0:
+    print()
+    sys.exit(" : : : Only root can run this script  : : : : : : : : : : : : : : : : : : : :");
+    print()
 
 def menue():
     print()
@@ -35,13 +38,15 @@ def menue():
     print("")
 
     if auswahl == "1":
-        os.system('cp -p -r /var/lib/bluetooth bluetooth && chmod -R 555 bluetooth');
+        subprocess.run(['cp', '-p', '-r', '/var/lib/bluetooth', 'bluetooth'], shell=False);
+        subprocess.run(['chmod','-R','555', 'bluetooth'], shell=False);
         print(" + + +  󰉗 bluetooth folder created in", os.getcwd(), " + + + + + + +")
         print()
     elif auswahl == "2":
-        os.system('rsync -au bluetooth /var/lib && reboot');
+        subprocess.run(['rsync', '-au', 'bluetooth', '/var/lib'], shell=False);
+        subprocess.run(['reboot'], shell=False);
     elif auswahl == "3":
-        os.system('rm -rf /var/lib/bluetooth');
+        subprocess.run(['rm', '-rf', '/var/lib/bluetooth'], shell=False);
         print(" x x x  Bluetooth removed  󰉘   x x x x x x x x x x x x x x x x x x x x x x x x")
         print()
     elif auswahl == "4":
